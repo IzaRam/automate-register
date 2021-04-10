@@ -40,8 +40,4 @@ def api_delete_user_by_id(user_id):
 if __name__ == '__main__':
     app.run()
 
-"""
-    curl -i -H "Content-Type: application/json" 
-    -X POST -d '{"username":"maria", "email":"maria@email.com", "password":"m123"}' 
-    http://127.0.0.1:5000/users
-"""
+
