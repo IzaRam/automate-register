@@ -30,7 +30,7 @@ Alguns end-points da aplicação:
 $ curl -v http://127.0.0.1:5000/users
 ```
 
-### Adcionar novo user
+### Adicionar novo user
 
 ```
 $ curl -i -H "Content-Type: application/json" 
